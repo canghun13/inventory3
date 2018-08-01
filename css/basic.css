@@ -1,0 +1,17 @@
+@charset "UTF-8";
+body, html{
+	padding:0;
+	margin:0;
+	font-size:0;
+	line-height:0;
+}
+.head_wrap{
+	width:100%;
+}
+.head_wrap .menu_wrap{
+	width:100%;
+}
+
+.head_wrap .menu_wrap ul{
+	list-style:none;
+}
