@@ -8,6 +8,3 @@ body, html{
 .container{margin:auto;max-width:1200px;}
 
 .flexslider .slides li img{width:100%;max-height:650px;}
-.main_section1{
-	margin-top:-50px;
-}
