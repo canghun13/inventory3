@@ -6,4 +6,4 @@ body, html{
 	line-height:0;
 }
 
-@import "header.css";
+.container{margin:auto;width:1200px;}
