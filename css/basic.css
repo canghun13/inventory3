@@ -4,10 +4,9 @@ body, html{
 	margin:0;
 	font-size:0;
 }
-
-.container{margin:auto;max-width:1200px;}
+.wrapper{	
+	height:900px;
+}
+.container{margin:auto;max-width:1200px;width:100%;}
 
 .flexslider .slides li img{width:100%;max-height:650px;}
-.wrapper{
-	position:absolute;
-}
