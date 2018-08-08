@@ -1,0 +1,63 @@
+<html>
+	<head>
+		<meta charset="utf-8" >
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+		<title>inventory</title>
+
+		<link rel="stylesheet" type="text/css" href="../css/basic.css" />
+		<link rel="stylesheet" type="text/css" href="../css/flexslider.css" />
+		<script src="../js/jquery-3.3.1.min.js"></script>
+		<script src="../js/jquery.flexslider.js"></script>	
+		<script>
+			$(function(){
+				$("#header").load("../head.html");
+				$("#footer").load("../footer.html");
+			});
+		</script>
+		  <!-- FlexSlider -->
+		<script src="./js/basic.js"></script>
+		<script defer src="../jquery.flexslider.js"></script>
+
+		<script type="text/javascript">
+			$(window).load(function(){
+				$('.flexslider').flexslider({
+					animation: "slide",
+					controlNav: false
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<div class="wrapper container">
+			<div class="wrapper_inner">
+				<div id="header"></div>
+				<div id="contents_wrapper">
+					<div class="php_main_section">
+						<div class="subject">
+							<div class="header">
+								PHP란?
+							</div>
+							<div class="content">
+								웹에서 사용하기 위해 설계된 서버 스크립트 언어로, 프로그램이 실행될 때 마다 프로그램의 코드가 실시간으로 실행되므로, 항상 똑같은 페이지(정적정보)가 아닌 항상 바뀌는 페이지(동적 정보)를 볼 수 있고, 웹사이트와 방문자 간의 상호소통을 할 수도 있습니다. 
+							</div>
+						</div>
+						<div class="subject">
+							<div class="header">
+								PHP장점?
+							</div>
+							<div class="content">
+								1. 배우기 쉽습니다.
+								2. 가볍기 때문에 값싼 서버로 고효율적으로 활용할 수 있습니다.
+								3. 웹 기능을 지원하는 다양한 내장 라이브러리가 있습니다.
+								4. 데이터 표준형식인 ODBC(Open Database Connectivity Standard)도 지원합니다.
+
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="footer"></div>
+			</div>
+		</div>
+	</body>
+</html>
