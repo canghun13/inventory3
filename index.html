@@ -16,36 +16,75 @@
 			});
 		</script>
 		  <!-- FlexSlider -->
-		  <script defer src="../jquery.flexslider.js"></script>
+		<script src="./js/basic.js"></script>
+		<script defer src="../jquery.flexslider.js"></script>
 
-		  <script type="text/javascript">
+		<script type="text/javascript">
 			$(window).load(function(){
-			  $('.flexslider').flexslider({
-				animation: "slide",
-				controlNav: false
-			  });
+				$('.flexslider').flexslider({
+					animation: "slide",
+					controlNav: false
+				});
 			});
-		  </script>
+		</script>
 	</head>
 	<body>
-		<div id="header"></div>
-		<div id="contents_wrapper">
-			<div class="main_section main_section1 container">
-				<div class="flexslider">
-					<ul class="slides">
-						<li>
-							<img src="./images/main/visual_01.jpg" width="100%" height="700px"/>
-						</li>
-						<li>
-							<img src="./images/main/visual_02.jpg" width="100%" height="600px" />
-						</li>
-						<li>
-							<img src="./images/main/visual_03.jpg" width="100%" height="600px" />
-						</li>
-					</ul>
+		<div class="wrapper">
+			<div id="header"></div>
+			<div id="contents_wrapper">
+				<div class="main_section main_section1 container">
+					<div class="flexslider">
+						<ul class="slides">
+							<li>
+								<img src="./images/main/visual_01.jpg" width="100%" height="700px"/>
+							</li>
+							<li>
+								<img src="./images/main/visual_03.jpg" width="100%" height="600px" />
+							</li>
+						</ul>
+					</div>
 				</div>
+				<!--
+				<div class="main_section main_section2">
+					<div class="info_head_section">
+						언어소개
+					</div>
+					<div class="info_section">
+						<div class="info_header">
+							php?
+						</div>
+						<div class="info_contents">
+						
+						</div>a
+					</div>
+					<div class="info_section">
+						<div class="info_header">
+							jsp?
+						</div>
+						<div class="info_contents">
+						
+						</div>
+					</div>
+					<div class="info_section">
+						<div class="info_header">
+							spring?
+						</div>
+						<div class="info_contents">
+						
+						</div>
+					</div>
+					<div class="info_section">
+						<div class="info_header">
+							javscript?
+						</div>
+						<div class="info_contents">
+						
+						</div>
+					</div>
+				</div>
+				-->
 			</div>
+			<div id="footer"></div>
 		</div>
-		<div id="footer"></div>
 	</body>
 </html>
