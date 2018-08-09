@@ -15,7 +15,14 @@
 	padding:47px 56px;
 	margin: 10px 0px;
 }
-
+.head_wrap .logo a{
+	color:#000;
+	text-decoration:none;
+}
+.head_wrap .logo a:hover{
+	color:#000;
+	text-decoration:none;
+}
 .head_wrap .info_wrap, .head_wrap .logo{
 	float:left;
 }
