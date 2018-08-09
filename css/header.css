@@ -94,6 +94,7 @@
 	outline:none;
 	color:#fff;
 	width:100%;
-	padding: 10.5px 35.3px;
+    padding: 10.5px 47.1px;
 	display:inline-block;
+	box-sizing:border-box;
 }
