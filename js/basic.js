@@ -11,8 +11,8 @@ $(function(){
 	//소개 서브젝트
 	$(".subject > .header").click(function(){
 		var class_name = $(this).next().attr("class");
-	
-		$(this).next().removeClass("content").removeClass("content_active");
+		
+		$(".subject >.content").removeClass("content_active");
 		if(class_name=="content"){
 			$(this).next().addClass("content_active");
 		}else{

@@ -14,23 +14,42 @@ body, html{
 .php_main_section{
 	width:100%;
 	min-height:680px;
+	
 	background:url("/inventory3/images/contents/php_intro.jpg");
-	/*background:url("../images/contents/php_intro.jpg") center center no-repeat;
-		로컬
-	*/
+	/*
+	background:url("../images/contents/php_intro.jpg") center center no-repeat;
+	*/	
+	
 	display:inline-block;
 }
-.php_main_section > .subject{
+.jsp_main_section{
+	width:100%;
+	min-height:680px;
+	
+	background:url("/inventory3/images/contents/jsp_intro.jpg");
+	/*
+	background:url("../images/contents/jsp_intro.jpg") center center no-repeat;
+	*/	
+	
+	display:inline-block;
+}
+.section_mask{
+	display: inline-block;
+    width: 100%;
+    min-height: 680px;
+	background:rgba(0, 0, 0, 0.3);
+}
+.subject{
 	max-width: 500px;
     width: 100%;
     box-sizing: border-box;
     margin-top: 5px;
-    margin-left: 20px;
+    margin-left: 50px;
 }
-.php_main_section > .subject:first-child{
+.subject:first-child{
 	margin-top:100px;
 }
-.php_main_section > .subject > .header{
+.subject > .header{
 	font-size:20px;
 	font-weight:600;
 	width:100%;
@@ -41,11 +60,11 @@ body, html{
 	box-sizing:border-box;
 	cursor:pointer;
 }
-.php_main_section > .subject > .content{
+.subject > .content{
 	display:none;
 }
 
-.php_main_section > .subject > .content_active{
+.subject > .content_active{
 	display: block;
     font-size: 14px;
     padding: 15px;
@@ -56,17 +75,17 @@ body, html{
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
 }
-.php_main_section > .subject > .content_active > .each_cont{
+.subject > .content_active > .each_cont{
 	padding-left:14px;
 	position:relative;
 	margin: 5px 0px;
 	line-height:1.8;
 	
 }
-.php_main_section > .subject > .content_active > .each_cont:first-child{
+.subject > .content_active > .each_cont:first-child{
 	margin-top:0px;
 }
-.php_main_section > .subject > .content_active > .each_cont > .sign{
+.subject > .content_active > .each_cont > .sign{
 	position:absolute;
 	left:0;
 	top:0;
