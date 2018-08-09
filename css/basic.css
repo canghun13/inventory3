@@ -14,10 +14,15 @@ body, html{
 .php_main_section{
 	
 }
-.php_main_section > .header{
+.php_main_section > .subject{
+	
+}
+.php_main_section > .subject > .header{
 	font-size:20px;
 }
-
+.php_main_section > .subject > .content{
+	font-size:14px;
+}
 .depth1_menu_active{
 	background:#fff;
 	color:#000;
