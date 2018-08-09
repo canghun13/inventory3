@@ -33,6 +33,17 @@ body, html{
 	
 	display:inline-block;
 }
+.javascript_main_section{
+	width:100%;
+	min-height:680px;
+	
+	background:url("/inventory3/images/contents/javascript_intro.jpg");
+	/*
+	background:url("../images/contents/javascript_intro.jpg") center center no-repeat;
+	*/	
+	
+	display:inline-block;
+}
 .section_mask{
 	display: inline-block;
     width: 100%;
