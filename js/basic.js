@@ -8,6 +8,16 @@ $(function(){
 	//alert($(".container").width());
 	$(".wrapper").css("top", wrapper_positionY).css("left", wrapper_positionX).css("position","absolute");
 
+	//소개 서브젝트
+	$(".subject > .header").click(function(){
+		var class_name = $(this).next().attr("class");
 	
+		$(this).next().removeClass("content").removeClass("content_active");
+		if(class_name=="content"){
+			$(this).next().addClass("content_active");
+		}else{
+			$(this).next().addClass("content");
+		}
+	});
 });
 

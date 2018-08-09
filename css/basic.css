@@ -12,17 +12,65 @@ body, html{
 .flexslider .slides li img{width:100%;max-height:650px;}
 
 .php_main_section{
-	
+	width:100%;
+	min-height:650px;
+	background:url("/inventory3/images/contents/php_intro.jpg");
+	/*background:url("../images/contents/php_intro.jpg") center center no-repeat;
+		로컬
+	*/
+	display:inline-block;
 }
 .php_main_section > .subject{
-	
+	max-width: 500px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.php_main_section > .subject:first-child{
+	margin-top:100px;
 }
 .php_main_section > .subject > .header{
 	font-size:20px;
+	font-weight:600;
+	width:100%;
+	background:#e5e5e5;
+	padding:10px 15px;
+	border:2px solid #e0e0e0;
+	border-radius:15px;
+	box-sizing:border-box;
 }
 .php_main_section > .subject > .content{
-	font-size:14px;
+	display:none;
 }
+
+.php_main_section > .subject > .content_active{
+	display: block;
+    font-size: 14px;
+    padding: 15px;
+    box-sizing: border-box;
+    line-height: 1.8;
+    background: #fff;
+    margin: 0 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.php_main_section > .subject > .content_active > .each_cont{
+	padding-left:14px;
+	position:relative;
+	margin: 5px 0px;
+	line-height:1.8;
+	
+}
+.php_main_section > .subject > .content_active > .each_cont:first-child{
+	margin-top:0px;
+}
+.php_main_section > .subject > .content_active > .each_cont > .sign{
+	position:absolute;
+	left:0;
+	top:0;
+}
+.php_main_section > .subject > .content_active > .each_cont .{
 .depth1_menu_active{
 	background:#fff;
 	color:#000;
