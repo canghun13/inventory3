@@ -28,8 +28,9 @@
 }
 
 .head_wrap .info_wrap{
-	padding:0px 25px;
+	padding:0px;
 	padding-right:0px;
+	box-sizing:border-box;
 }
 .head_wrap .info_wrap .info, .head_wrap .info_wrap .menu{
 	clear:both;
@@ -43,6 +44,9 @@
 	outline:none;
 	text-decoration:none;
 	color:#000;
+	width: 100%;
+    display: inline-block;
+    word-wrap: break-word;
 }
 .head_wrap .info_wrap .info > ul{
 	list-style:none;
@@ -97,4 +101,94 @@
     padding: 10.5px 47.1px;
 	display:inline-block;
 	box-sizing:border-box;
+}
+.mobile_info_wrap{
+	display:none;
+}
+/** 메뉴 **/
+@media(max-width:1200px){
+	.head_wrap .logo{
+		width:100%;
+		text-align:center;
+		padding:0px !important;
+		margin-top:30px !important;
+	}
+	.head_wrap .info_wrap{
+		width:100%;
+	}
+	.head_wrap .info_wrap .info{
+		width:100%;
+	}
+	.head_wrap .info_wrap .info > ul{
+		width:100%;
+		padding:0px;
+	}
+	.head_wrap .info_wrap .info > ul > li{
+		width:33.333%;
+		max-width:none;
+		box-sizing:border-box;
+		padding-left:30px !important;
+	}
+	.head_wrap .info_wrap .info, .head_wrap .info_wrap .menu{
+		width:100%;
+	}
+	.head_wrap .info_wrap .menu > ul{
+		padding:0px;
+		max-width:none;
+	}
+	.head_wrap .info_wrap .menu > ul:before{
+		display:none;
+	}
+	.head_wrap .info_wrap .menu > ul > li{
+		width:25%;
+		text-align:center;
+		font-size:0px;
+	}
+	.head_wrap .info_wrap .menu > ul > li a{
+		padding:10.5px 20px;
+		white-space:nowrap; 
+		text-overflow:ellipsis;
+		font-size:16px;
+		overflow:hidden;
+	}
+}
+@media(max-width:767px){
+	.head_wrap .logo{
+		margin-top:15px !important;
+		margin-bottom:15px;
+		width:auto;
+		font-size:30px;
+		margin-left:15px;
+	}
+	.head_wrap .info_wrap{
+		display:none;
+	}
+	.mobile_info_wrap{
+		display:block;
+		float:right;
+	}
+	.mobile_info_wrap > .hamburger{
+		width:40px;
+		height:40px;
+		padding:5px 7px;
+		box-sizing:border-box;
+		border-radius:12px;
+		margin-top:20px;
+		margin-right:10px;
+		margin-bottom:10px;
+	}
+	.mobile_info_wrap > .hamburger > span{
+		display:inline-block;
+		width:100%;
+		border-bottom:3px solid #fff;
+		margin-top:4px;
+	}
+	.mobile_info_wrap > .mobile_menu{
+		display:none;
+	}
+
+}
+.depth1_menu_active{
+	color:#000 !important;
+	background:#fff;
 }
