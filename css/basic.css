@@ -109,6 +109,6 @@ body, html{
 	height:81px;
 }
 .depth1_menu_active{
-	color:#000;
+	color:#000 !important;
 	background:#fff;
 }
