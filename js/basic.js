@@ -21,7 +21,7 @@ $(function(){
 			wrapper_positionY=0;
 		}
 		//새로크기가 작을시는 그냥 상단으로 붙여서 노출
-		if(browser_height<0){
+		if(wrapper_positionY<0){
 			wrapper_positionY=0;
 		}
 		$(".wrapper").css("top", wrapper_positionY).css("left", wrapper_positionX).css("position","absolute");
