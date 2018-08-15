@@ -1,7 +1,12 @@
 $(function(){
 	
+
 	$( window ).resize(function() {
 		//웹일때 화면 정중앙에 위치
+		clearTimeout(null);
+		timer  = setTimeout(resize_wrap(), 300);
+	});
+	function resize_wrap(){
 		var browser_width = $(window).width();
 		var browser_height = $(window).height();
 		
@@ -12,7 +17,7 @@ $(function(){
 			wrapper_positionY=0;
 		}
 		$(".wrapper").css("top", wrapper_positionY).css("left", wrapper_positionX).css("position","absolute");
-	});
+	}
 	//소개 서브젝트
 	$(".subject > .header").click(function(){
 		var class_name = $(this).next().attr("class");
