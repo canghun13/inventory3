@@ -9,4 +9,17 @@ $(function(){
 		//$(this).children("a").css("color","#fff");
 		$(this).children("a").removeClass("depth1_menu_active");
 	});
+
+	$(".hamburger").click(function(){
+		var status = $(".hamburger").attr("status");
+		
+		if(status!="open"){
+			$(".mobile_menu").css("display","block");
+			$(".hamburger").attr("status","open");
+		}else{
+			$(".mobile_menu").css("display","none");
+			$(".hamburger").attr("status","");
+		}
+		
+	});
 });
