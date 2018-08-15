@@ -8,6 +8,9 @@ $(function(){
 		var wrapper_positionX = browser_width/2 - $(".container").width()/2;
 		var wrapper_positionY = browser_height/2 - $(".wrapper").height()/2;
 		//alert($(".container").width());
+		if(wrapper_positionY<=1200){
+			wrapper_positionY=0;
+		}
 		$(".wrapper").css("top", wrapper_positionY).css("left", wrapper_positionX).css("position","absolute");
 	});
 	//소개 서브젝트
