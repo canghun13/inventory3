@@ -8,6 +8,7 @@ $(function(){
 		var wrapper_positionX = browser_width/2 - $(".container").width()/2;
 		var wrapper_positionY = browser_height/2 - $(".wrapper").height()/2;
 		//alert($(".container").width());
+		console.log(wrapper_positionX);
 		if(wrapper_positionX<=1200){
 			wrapper_positionY=0;
 		}
