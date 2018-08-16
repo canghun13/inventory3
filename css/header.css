@@ -57,6 +57,7 @@
 .head_wrap .info_wrap .info > ul > li{
 	float:left;
 	max-width:340px;
+	-moz-max-width:300px;
 	padding: 10px 30px;
 }
 .head_wrap .info_wrap .info > ul > li:first-child{
@@ -76,7 +77,8 @@
 	position:relative;
 	color:#fff;
 	width:100%;
-	max-width:819px;
+	max-width:800px;
+	-webkit-max-width:819px;
 }
 .head_wrap .info_wrap .menu > ul:before{
 	content: "";
@@ -89,7 +91,7 @@
 	border-top: 21px solid #e5e5e5;
     position: absolute;
     margin: auto;
-    left: -14px;
+    left: -40px;
 }
 .head_wrap .info_wrap .menu > ul > li{
 	float:left;
@@ -100,6 +102,7 @@
 	color:#fff;
 	width:100%;
     padding: 10.5px 50.24px;
+	-moz-padding: 10.5px 49.62px;
 	display:inline-block;
 	box-sizing:border-box;
 }
