@@ -115,7 +115,7 @@
 	background:#000;
 	padding:30px 0px;
 	box-sizing:border-box;
-	position: fixed;
+	position: absolute;
     z-index: 1000;
 }
 .mobile_menu a{

@@ -101,10 +101,41 @@ body, html{
 	left:0;
 	top:0;
 }
+.homp_info_mobile{
+	display:none;
+}
 .copyright_wrap{
 	background:#000;
 	color:#e0e0e0;
 	font-size:14px;
 	padding:20px 20px;
 	height:81px;
+}
+
+@media(max-width:767px){
+	.homp_info_mobile{
+		display:block;
+		width:100%;
+	}
+	.homp_info_mobile > .mobile_info_wrap{
+		width:100%;
+		text-align:center;
+		background:#e5e5e5;
+		border-bottom:1px solid #fff;
+		padding:12px 0px;
+	}
+	.homp_info_mobile > .mobile_info_wrap:last-child{
+		border-bottom:none;
+	}
+	.homp_info_mobile > .mobile_info_wrap > .mobile_info_head{
+		width:100%;
+		font-size: 16px;
+		font-weight: 600;
+		padding-bottom: 7px;
+	}
+	.homp_info_mobile > .mobile_info_wrap > .mobile_info_cont{
+		width:100%;
+		font-size: 14px;
+		font-weight: 600;|
+	}
 }
