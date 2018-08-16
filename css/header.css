@@ -184,6 +184,9 @@
 		font-size:16px;
 		overflow:hidden;
 	}
+	.wrapper{
+		height:auto;
+	}
 }
 @media(max-width:767px){
 	.head_wrap .logo{
