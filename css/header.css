@@ -93,7 +93,8 @@
 	border-top: 21px solid #e5e5e5;
     position: absolute;
     margin: auto;
-    left: -40px;
+    left: -42px;
+	top: 1px;
 }
 .head_wrap .info_wrap .menu > ul > li{
 	float:left;
