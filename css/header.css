@@ -30,6 +30,7 @@
 .head_wrap .info_wrap{
 	padding:0px;
 	padding-right:0px;
+	float:right;
 	box-sizing:border-box;
 }
 .head_wrap .info_wrap .info, .head_wrap .info_wrap .menu{
