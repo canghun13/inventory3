@@ -72,13 +72,14 @@
 	list-style:none;
 	font-size:16px;
 	margin:0;
+	padding:0;
 	background:#000;
 	display:inline-block;
 	position:relative;
 	color:#fff;
 	width:100%;
-	max-width:800px;
-	-webkit-max-width:819px;
+	max-width:819px;
+	-webkit-max-width:800px;
 }
 .head_wrap .info_wrap .menu > ul:before{
 	content: "";
