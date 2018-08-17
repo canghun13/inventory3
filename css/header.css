@@ -94,7 +94,7 @@
     position: absolute;
     margin: auto;
     left: -42px;
-	top: 1px;
+	top: 0px;
 }
 .head_wrap .info_wrap .menu > ul > li{
 	float:left;
