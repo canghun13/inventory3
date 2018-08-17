@@ -150,4 +150,20 @@ body, html{
 	.copyright_wrap{
 		text-align:center;
 	}
+	.section_mask{
+		min-height:auto;
+		max-height:680px;
+	}
+	.section_mask > .subject{
+		max-width:none;
+		margin-left:0px;
+		padding:0px 5%;
+		
+	}
+	.section_mask > .subject:first-child{
+		margin-top:10%;
+	}
+	.section_mask > .subject:last-child{
+		margin-bottom:10%;
+	}
 }
