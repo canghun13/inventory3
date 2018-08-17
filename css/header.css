@@ -91,9 +91,15 @@
     border-right: 20px solid #000;
     border-left: 20px solid #e5e5e5;
 	border-top: 20px solid #e5e5e5;
+	
+	-webkit-border-bottom: 20px solid #000;
+    -webkit-border-right: 20px solid #000;
+    -webkit-border-left: 20px solid #e5e5e5;
+	-webkit-border-top: 20px solid #e5e5e5;
     position: absolute;
     margin: auto;
     left: -40px;
+	-webkit-left: -42px;
 	top: 0px;
 }
 .head_wrap .info_wrap .menu > ul > li{
