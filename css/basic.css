@@ -150,6 +150,9 @@ body, html{
 	.copyright_wrap{
 		text-align:center;
 	}
+	.php_main_section, .jsp_main_section, .javascript_main_section{
+		min-height:auto;
+	}
 	.section_mask{
 		min-height:auto;
 		max-height:680px;
